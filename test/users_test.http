@@ -1,0 +1,43 @@
+GET http://127.0.0.1:8000/user/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/user/2
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/user?id_user=4
+Accept: application/json
+
+###
+
+POST http://127.0.0.1:8000/user
+Content-Type: application/json
+
+{
+      "id": 4,
+      "name": "Ale",
+      "lastName": "JA",
+      "age": "23"
+}
+
+###
+
+PUT http://127.0.0.1:8000/user
+Content-Type: application/json
+
+{
+      "id": 4,
+      "name": "Ale",
+      "lastName": "JJ",
+      "age": "23"
+}
+
+###
+
+DELETE http://127.0.0.1:8000/user/3
+Accept: application/json
+
+###

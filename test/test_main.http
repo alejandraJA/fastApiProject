@@ -1,0 +1,19 @@
+GET http://127.0.0.1:8000/
+Accept: application/json
+
+###
+
+GET http://127.0.0.1:8000/hello/User
+Accept: application/json
+
+### Para obtener la documentación
+
+GET http://127.0.0.1:8000/docs
+Accept: application/json
+
+### Para obtener la documentación 2
+
+GET http://127.0.0.1:8000/redoc
+Accept: application/json
+
+###
